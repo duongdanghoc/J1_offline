@@ -11,13 +11,13 @@ import java.util.Scanner;
  * @author Admin
  */
 public class Person {
-    private String name;
+    private String name;//thuoc tinh
     private int age;
     private String phone;
 
     public Person() {
     }
-
+// phuong thuc khoi tao
     public Person(String name, int age, String phone) {
         this.name = name;
         this.age = age;
@@ -27,7 +27,7 @@ public class Person {
     public String getName() {
         return name;
     }
-
+    // set/get dung de  thay doi/ lay thuoc tinh
     public void setName(String name) {
         this.name = name;
     }
